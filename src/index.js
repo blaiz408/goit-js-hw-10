@@ -34,7 +34,6 @@ function createItem([{ name, capital, population, flags, languages }]) {
       <h1>${name.official}</h1>
       <p>'Capital: ${capital}'</p>
       <p>'Population: ${population}'</p>
-     
       <p>'Languages: ${Object.values(languages).join(', ')}'</p>
   </div>`;
   countryInfo.innerHTML = markupItem;
